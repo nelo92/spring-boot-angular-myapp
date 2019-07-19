@@ -1,5 +1,6 @@
 package fr.ma.myapp.controller;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,4 +12,5 @@ public class HelloController {
     public String hello() {
         return "Hello World!";
     }
+
 }
